@@ -4,6 +4,7 @@
     border: 0;
         }
 
+
 div.header {background-color: rgb(209,212,201);
     margin: 0;
     padding: 0;
@@ -35,7 +36,7 @@ div.menu {
     
 }
 .link{
-        text-decoration: none;
+    text-decoration: none;
         
 }
 
@@ -54,15 +55,129 @@ a:hover.link{
 a:active.link{
     color:grey;
 }
+a:link.inlinelink{
+    color:black; 
+}
+
+a:visited.inlinelink{
+    color:black; 
+}
+
+a:hover.inlinelink{
+    color:grey;
+}
+
+a:active.inlinelink{
+    color:grey;
+}
 img.logo{
     width: 330px;
     height: 90px;
+    margin: auto;
+    display: block;
+    padding: 20px;
+}
+
+img.break{
+    height:30px;
+    width:600px;
+    margin: auto;
+    display: block;
+}
+img.smallbreak{
+    height:30px;
+    width:400px;
     margin: auto;
     display: block;
 }
 nav.navigation{
     text-align: center;
     font-size:15px;
-    word-spacing: 40px;
+    word-spacing: 70px;
     font-weight:500;
+    margin: 0px;
+    padding:0px;
 }
+
+div.body {
+    background-color: rgb(209,212,201);
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width:100%;
+    height:100%;
+            
+}
+h1.bodycontent{
+    padding-right: 40px;
+    padding-left: 40px;
+    font-family:"Times New Roman";
+    font-weight:600;
+}
+
+p.bodycontent{
+    padding-right: 40px;
+    padding-left: 65px;
+    padding-top: 0px;
+    font-size:20px;
+    font-family:"Times New Roman";
+    font-weight:600;
+    
+}
+.bodyimage{
+    border:3px solid rgb(153,153,153);
+    padding:0px;
+    height:0px;
+    width:100%;
+    height:100%;
+}
+
+footer {
+    background-color: rgb(153,153,153);
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-align: auto;
+    width:100%;
+    height:100%;
+}
+.footer{
+    padding-right: 10px;
+    padding-left: 40px;
+    padding-top: 0px;
+    font-family:"Times New Roman";
+    font-weight:600;
+}
+.footercontent{
+    padding-right: 10px;
+    padding-left: 40px;
+    padding-top: 0px;
+    font-family:"Times New Roman";
+    font-weight:600;
+    line-height:10%;
+}
+.copyright{
+    padding-left: 40px;
+    font-size: 17px;
+}
+
+
+.curved{
+    border-radius: 25px;
+    background: rgb(135,184,5); 
+    width: 500px;
+    height: 50px; 
+    text-align: center;
+}
+.center {
+  margin: 0 auto;
+  width: 500px;
+}
+p.appointmentcontent{
+    padding-top: 0px;
+    font-size:20px;
+    font-family:"Times New Roman";
+    font-weight:600;
+}
+    
+    
